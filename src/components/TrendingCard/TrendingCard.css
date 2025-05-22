@@ -1,0 +1,62 @@
+.TrendingCard{
+    width: 31.25%;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 660px;
+}
+.TCImg img{
+    width: 100%;
+    max-height: 300px;
+}
+.TCText {
+    width: 70%;
+    margin: 16px 0px 38px 0px;
+}
+.TCText p{
+    color: var(--blue-color);
+    line-height: 28px;
+}
+.TCText h2{
+    color: var(--color-1);
+    line-height:29px ;
+}
+.TCLocation{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:var(--color-1) ;
+    line-height: 20px;
+}
+@media(max-width:992px){
+    .TrendingCard{
+    width:48%;
+    padding: 16px;
+    border: 6px;
+}
+.TCText {
+    width: 100%;
+    margin: 14px 0px 72px 0px;
+}
+.TCText h2{
+    font-size: 16px;
+    line-height:27px ;
+}
+.TCImg img{
+    width: 100%;
+}
+.TCLocation{
+    gap: 15px;
+    font-size: 12px;
+}
+.TCLocation img{
+    width: 18px;
+}
+}
+@media(max-width:700px){
+    .TrendingCard{
+    width:100%;
+}
+.TCImg img{
+    max-height: 220px;
+}
+}

@@ -1,0 +1,10 @@
+.Deals{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+@media(max-width:992px){
+    .Deals{
+    gap: 42px;
+}
+}

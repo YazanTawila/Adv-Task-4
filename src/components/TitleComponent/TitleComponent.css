@@ -1,0 +1,15 @@
+.TitleComponent h2{
+    color: var(--color-1);
+    line-height: 40px;
+}
+.TitleComponent p{
+    margin-top: 6px;
+    color: var(--color-2);
+    line-height: 27px;
+}
+@media(max-width:992px){
+    .TitleComponent h2{
+    font-size: 30px;
+    line-height: 30px;
+}
+}

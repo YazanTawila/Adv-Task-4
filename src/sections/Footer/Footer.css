@@ -1,0 +1,92 @@
+.FooterTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    border-bottom: 1px solid var(--color-4);
+    gap: 60px;
+}
+.FTLeft{
+    width: 28%;
+}
+.FTLeft p{
+    line-height: 26px;
+    color: var(--color-2);
+    margin-top: 26px;
+}
+.FTRight{
+    display: flex;
+    gap: 60px;
+}
+.FTGroup ul { 
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.FTGroup h3 { 
+    margin-bottom: 20px;
+    color: var( --color-1);
+}
+.FTGroup ul li a{ 
+    text-decoration: none;
+    color: var( --color-1);
+}
+
+.FTGroup p{
+    color: var( --color-1);
+}
+.SocialLinks {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+.SocialLinks .Social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: var(--blue-color);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.SocialLinks .Social:hover{
+    transform: translateY(-10px);
+}
+.SocialLinks .Social img{
+    width: 24px;
+}
+.FooterBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 24px 24px 0px;
+    color: var( --color-1);
+}
+.FBRight{
+    display: flex;
+    gap: 30px;
+}
+@media(max-width:992px){
+.FooterTop{
+    flex-direction: column;
+    gap: 30px;
+}
+.FTLeft{
+    width: 100%;
+}
+.FTLeft img{
+    width: 60px;
+    height: 50px;
+}
+.FTRight{
+    flex-direction: column;
+    gap: 30px;
+}
+.FooterBottom{
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 0px 27px 0px;
+}
+}

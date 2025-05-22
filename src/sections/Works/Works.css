@@ -1,0 +1,10 @@
+.Works{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+@media(max-width:992px){
+    .Works{
+    gap: 42px;
+}
+}
